@@ -1,0 +1,12 @@
+binance API Key : hoUL9VOrAORK2GN5sDejUl7j6hOTBcXAZaIr0f1njCLPs4TZPHS6KCTL6PQZbpi9
+binance API Secret : 5JSm571NyCDeCaURZQOz0C7dT5JPFg6eB7sKnHFMzsGcZhCTq07JVyYxhfnR8t22
+bitmex API Key : t4aaDq4H0AMgin1qUs8Jm0gu
+bitmex API Secret : YVQKHJveG1nAkLCCgWcw61Zn-VcLTI9ZE-hfSszuZUm7irOf
+
+binance = BinanceFuturesClient("hoUL9VOrAORK2GN5sDejUl7j6hOTBcXAZaIr0f1njCLPs4TZPHS6KCTL6PQZbpi9",
+                                   "5JSm571NyCDeCaURZQOz0C7dT5JPFg6eB7sKnHFMzsGcZhCTq07JVyYxhfnR8t22", True)
+bitmex = BitmexClient("t4aaDq4H0AMgin1qUs8Jm0gu", "YVQKHJveG1nAkLCCgWcw61Zn-VcLTI9ZE-hfSszuZUm7irOf", True)
+
+binance = BinanceFuturesClient("binance API Key",
+                                   "binance API Secret", True)
+bitmex = BitmexClient("bitmex API Key", "bitmex API Secret", True)
